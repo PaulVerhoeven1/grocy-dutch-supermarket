@@ -1,4 +1,4 @@
 requests
 supermarktconnector
-base64
+pybase64
 python-dotenv
