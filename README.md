@@ -7,8 +7,10 @@ This is a Python script that connects with the dutch supermarket [Jumbo.com](htt
 
 **How to use this script:**
 * run the script with as argument the EAN / Barcode, example:
-* ```./jumbo-grocy.py 8710391936834
-*      ./ah-grocy.py 8710391936834 ```
+```
+./jumbo-grocy.py 8710391936834
+./ah-grocy.py 8710391936834 
+```
 
 **Planned refinements:**
 - [x] Adding the possiblity to use arguments with the script.
