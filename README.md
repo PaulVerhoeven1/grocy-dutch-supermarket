@@ -3,7 +3,7 @@ This is a Python script that connects with the dutch supermarket [Jumbo.com](htt
 
 **Getting started:**
 * install the required packages with pip (pip install -r requirements.txt)
-* Create .env file in the same directory where where you run this code. There is an .env_example file that you can use ase baseline
+* Create .env file in the same directory where where you run this code. There is an .env_example file that you can use as baseline.
 
 **How to use this script:**
 * run the script with as argument the EAN / Barcode, example:
@@ -14,7 +14,7 @@ This is a Python script that connects with the dutch supermarket [Jumbo.com](htt
 
 **Planned refinements:**
 - [x] Adding the possiblity to use arguments with the script.
-- [ ] Mergin AH and Jumbo scripts into one file.
+- [ ] Merging AH and Jumbo scripts into one file.
 - [ ] Creating a script to scrape more information from the Jumbo.com website.
 - [ ] Adding logging.
 - [ ] Adding Try and Except blocks.

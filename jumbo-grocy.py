@@ -4,8 +4,9 @@ import base64
 import os
 import sys
 from dotenv import load_dotenv
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-print(sys.argv)
 
 connector = JumboConnector()
 
