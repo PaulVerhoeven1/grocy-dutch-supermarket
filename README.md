@@ -1,4 +1,4 @@
-# grocy-jumbo.com
+# Grocy jumbo.com connector
 Python application that connects with the Jumbo.com api to download product information and posting those information to the self-hosted grocery management solution Grocy.
 
 *How to use this script:*
