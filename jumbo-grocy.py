@@ -2,7 +2,10 @@ import requests
 from supermarktconnector.jumbo import JumboConnector
 import base64
 import os
+import sys
 from dotenv import load_dotenv
+
+print(sys.argv)
 
 connector = JumboConnector()
 
@@ -31,7 +34,9 @@ def ean_jumbo_search(eancode):
     dict_output["item_type"] = item_output['productType']
     dict_output['ean_code'] = eancode
 
-ean_jumbo_search(8711200327584)
+ean_jumbo_search(sys.argv[1])
+
+
 
 productdata =    {
     "name": "{}",
@@ -85,11 +90,11 @@ def image_post(inp_url, ean_code):
         with open("ean_pictures/" + ean_code + '.txt', "r") as ean_hash:
             ean_hash_final = ean_hash.readline()
             r = requests.put('{}/api/files/productpictures/{}'.format(VAR_HOST, ean_hash_final), data=img, verify=False, headers=headers_image, timeout=None)
-            print(r.status_code)
+            # print(r.status_code)
 
 
 image_post(dict_output["item_image"], str(dict_output["ean_code"]))
 
 # posting the product data
 r = requests.post("{}/api/objects/products".format(VAR_HOST),json=productdata,headers=headers, verify=False)
-print(r.content)
+# print(r.content)
