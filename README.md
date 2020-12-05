@@ -5,10 +5,9 @@ This is a Python script that connects with the dutch supermarket [Jumbo.com](jum
 * install the required packages with pip (pip install -r requirements.txt)
 * Create .env file in the same directory where where you run this code. There is an .env_example file that you can use ase baseline
 
-**How to use this script?**
-* run the script with as argument the EAN / Barcode.
-* Example:
-``` ./jumbo-grocy.py 8710391936834 ```
+**How to use this script:**
+* run the script with as argument the EAN / Barcode, example:
+* ``` ./jumbo-grocy.py 8710391936834 ```
 
 **Planned refinements:**
 - [x] Adding the possiblity to use arguments with the script
