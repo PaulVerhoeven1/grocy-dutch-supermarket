@@ -1,5 +1,5 @@
 # Grocy jumbo.com connector
-This is a Python application that connects with the dutch Jumbo.com (mobile) api to download product information and posting those information (title and image) to the self-hosted grocery management solution Grocy.
+This is a Python application that connects with the dutch Jumbo.com (mobile) api to download product information and posting those information (title and image) to the self-hosted grocery management solution [Grocy](https://github.com/grocy/grocy).
 
 **How to use this script:**
 * install the required packages with pip (pip install -r requirements.txt)
@@ -10,6 +10,3 @@ This is a Python application that connects with the dutch Jumbo.com (mobile) api
 - [ ] Adding the possiblity to use arguments with the script
 - [ ] Creating a script to scrape more information from the Jumbo.com website
 - [ ] Creating a Dockerfile to run the script within a container 
-
-
-
