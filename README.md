@@ -1,5 +1,5 @@
 # Grocy jumbo.com connector
-This is a Python script that connects with the dutch supermarket [Jumbo.com](jumbo.com)throught the python package [SupermarktConnector](https://github.com/bartmachielsen/SupermarktConnector). The script downloads product information and posting those information (title and image) to the self-hosted grocery management solution [Grocy](https://github.com/grocy/grocy).
+This is a Python script that connects with the dutch supermarket [Jumbo.com](jumbo.com) throught the python package [SupermarktConnector](https://github.com/bartmachielsen/SupermarktConnector). The script downloads product information and posting those information (title and image) to the self-hosted grocery management solution [Grocy](https://github.com/grocy/grocy).
 
 **Getting started:**
 * install the required packages with pip (pip install -r requirements.txt)
