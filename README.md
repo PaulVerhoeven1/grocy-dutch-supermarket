@@ -24,7 +24,7 @@ Run the script with as argument the EAN / Barcode, example:
 - [x] Add the possiblity to use arguments with the script.
 - [ ] Merging AH and Jumbo scripts into one file.
 - [ ] Check if a product already exists within Grocy (based on EAN / Barcode)
-- [ ] Creating a script to scrape more information from the Jumbo.com website.
+- [ ] Getting more information from the Jumbo API [Example](https://github.com/bartmachielsen/SupermarktConnector/issues/10)
 - [ ] Add logging.
 - [ ] Add `try` and `except` blocks.
 - [ ] Creating a Dockerfile to run the script within a container.
