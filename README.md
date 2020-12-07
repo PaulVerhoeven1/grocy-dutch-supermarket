@@ -15,6 +15,7 @@ This is a Python script that connects with the dutch supermarket [Jumbo.com](htt
 **Planned refinements:**
 - [x] Adding the possiblity to use arguments with the script.
 - [ ] Merging AH and Jumbo scripts into one file.
+- [ ] Check if a product already exists within Grocy (based on EAN / Barcode)
 - [ ] Creating a script to scrape more information from the Jumbo.com website.
 - [ ] Adding logging.
 - [ ] Adding Try and Except blocks.
