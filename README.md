@@ -6,7 +6,7 @@ It then post this information to [Grocy](https://github.com/grocy/grocy) .
 
 ## Getting started
 
-1. `git clone git@github.com:baskraai/grocy-dutch-supermarket.git; cd grocy-dutch-supermarket`
+1. `git clone git@github.com:PaulVerhoeven1/grocy-dutch-supermarket.git; cd grocy-dutch-supermarket`
 2. `pip3 install -r requirements.txt`
 3. `chmod +x *.py`
 4. `cp .env_example .env`
