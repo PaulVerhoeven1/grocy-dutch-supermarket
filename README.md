@@ -1,21 +1,30 @@
 # Grocy dutch supermarkets product scraper
-This is a Python script that connects with the dutch supermarket [Jumbo.com](https://jumbo.com) or [ah.nl](https://ah.nl) through the python package [SupermarktConnector](https://github.com/bartmachielsen/SupermarktConnector). The script downloads product information and posting those information (title and image) to the self-hosted grocery management solution [Grocy](https://github.com/grocy/grocy).
+These are two Python script that connect with the dutch supermarket [Jumbo.com](https://jumbo.com) or [ah.nl](https://ah.nl).
+It uses the python package [SupermarktConnector](https://github.com/bartmachielsen/SupermarktConnector) from [Bart Machielsen](https://github.com/bartmachielsen/) for this.
+The scripts download the product information from the API's.
+It then post this information to [Grocy](https://github.com/grocy/grocy) .
 
-**Getting started:**
-* install the required packages with pip (pip install -r requirements.txt)
-* Create .env file in the same directory where where you run this code. There is an .env_example file that you can use as baseline.
+## Getting started
 
-**How to use this script:**
-* run the script with as argument the EAN / Barcode, example:
+1. `git clone git@github.com:baskraai/grocy-dutch-supermarket.git; cd grocy-dutch-supermarket`
+2. `pip3 install -r requirements.txt`
+3. `chmod +x *.py`
+4. `cp .env_example .env`
+5. Edit the configration in the .env file.
+
+## How to use this script
+
+Run the script with as argument the EAN / Barcode, example:
 ```
 ./jumbo-grocy.py 8710391936834
-./ah-grocy.py 8710391936834 
+./ah-grocy.py 8710391936834
 ```
 
-**Planned refinements:**
-- [x] Adding the possiblity to use arguments with the script.
+## Todo
+- [x] Add the possiblity to use arguments with the script.
 - [ ] Merging AH and Jumbo scripts into one file.
 - [ ] Creating a script to scrape more information from the Jumbo.com website.
-- [ ] Adding logging.
-- [ ] Adding Try and Except blocks.
+- [ ] Add logging.
+- [ ] Add `try` and `except` blocks.
 - [ ] Creating a Dockerfile to run the script within a container.
+
